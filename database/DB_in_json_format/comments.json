@@ -1,0 +1,106 @@
+{
+"RECORDS":[
+{
+"id":1,
+"goods_id":1,
+"username":"Administrator",
+"comment":"too salty"
+},
+{
+"id":2,
+"goods_id":2,
+"username":"User",
+"comment":"nice, I like it"
+},
+{
+"id":3,
+"goods_id":3,
+"username":"Administrator",
+"comment":"good for breakfest"
+},
+{
+"id":4,
+"goods_id":4,
+"username":"User",
+"comment":"this is dark one"
+},
+{
+"id":5,
+"goods_id":5,
+"username":"Administrator",
+"comment":"good only when cold"
+},
+{
+"id":6,
+"goods_id":6,
+"username":"User",
+"comment":"just spring water"
+},
+{
+"id":7,
+"goods_id":7,
+"username":"Administrator",
+"comment":"nice cups for tea, but not for coffee"
+},
+{
+"id":8,
+"goods_id":8,
+"username":"User",
+"comment":"this is set of different plates"
+},
+{
+"id":9,
+"goods_id":9,
+"username":"Administrator",
+"comment":"silver forks"
+},
+{
+"id":10,
+"goods_id":29,
+"username":"User",
+"comment":"good with spicy sauce"
+},
+{
+"id":11,
+"goods_id":1,
+"username":"User",
+"comment":"cheese chips are the best"
+},
+{
+"id":12,
+"goods_id":4,
+"username":"Admimistrator",
+"comment":"don't like the dark one"
+},
+{
+"id":20,
+"goods_id":4,
+"username":"Administrator",
+"comment":"non filtered"
+},
+{
+"id":21,
+"goods_id":6,
+"username":"Administrator",
+"comment":"soda water"
+},
+{
+"id":22,
+"goods_id":31,
+"username":"Administrator",
+"comment":"good knife for meat"
+},
+{
+"id":23,
+"goods_id":32,
+"username":"Administrator",
+"comment":"dark with nuts"
+},
+{
+"id":24,
+"goods_id":2,
+"username":"User",
+"comment":"with onion"
+}
+]
+}

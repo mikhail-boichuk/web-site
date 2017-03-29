@@ -1,0 +1,17 @@
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (1, 1, 'Administrator', 'too salty');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (2, 2, 'User', 'nice, I like it');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (3, 3, 'Administrator', 'good for breakfest');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (4, 4, 'User', 'this is dark one');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (5, 5, 'Administrator', 'good only when cold');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (6, 6, 'User', 'just spring water');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (7, 7, 'Administrator', 'nice cups for tea, but not for coffee');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (8, 8, 'User', 'this is set of different plates');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (9, 9, 'Administrator', 'silver forks');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (10, 29, 'User', 'good with spicy sauce');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (11, 1, 'User', 'cheese chips are the best');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (12, 4, 'Admimistrator', 'don\'t like the dark one');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (20, 4, 'Administrator', 'non filtered');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (21, 6, 'Administrator', 'soda water');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (22, 31, 'Administrator', 'good knife for meat');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (23, 32, 'Administrator', 'dark with nuts');
+INSERT INTO `comments` (`id`, `goods_id`, `username`, `comment`) VALUES (24, 2, 'User', 'with onion');

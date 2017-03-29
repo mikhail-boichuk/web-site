@@ -1,0 +1,14 @@
+{
+"RECORDS":[
+{
+"username":"Administrator",
+"password":"$2y$10$Vg7JWU.ZFS2fTVAx0AsZj.AS.Zxx.om4rN5VkSG0CsReKqtXVi.Ru",
+"admin":1
+},
+{
+"username":"User",
+"password":"$2y$10$Fjx8Y1c\/4kXajzuMZVe39.lsVDkBVbZqSOoNUOw8.dmA31lsL\/TRi",
+"admin":0
+}
+]
+}

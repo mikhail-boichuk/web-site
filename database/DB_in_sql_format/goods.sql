@@ -1,0 +1,13 @@
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (1, 'chips', 'food', 19.99);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (2, 'crakers', 'food', 14.45);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (3, 'porridge', 'food', 23.79);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (4, 'beer', 'drinks', 15.75);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (5, 'cola', 'drinks', 10.80);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (6, 'water', 'drinks', 9.35);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (7, 'cups', 'goods', 159.99);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (8, 'plates', 'goods', 205.50);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (9, 'forks', 'goods', 82.45);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (29, 'nachos', 'food', 15.86);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (30, 'juice', 'drinks', 25.50);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (31, 'knife', 'goods', 100.29);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_type`, `goods_price`) VALUES (32, 'chocolate', 'food', 15.86);

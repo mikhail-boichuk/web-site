@@ -1,0 +1,283 @@
+*{
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+
+body {
+	font-family: 'Droid Sans', sans-serif;
+	color: #3d4241;
+	background-color: white;
+	margin: 0;
+}
+
+body p {
+	font-size: 0.8em;
+	line-height: 30px;
+}
+
+.wrapper {
+	// width: 100%;
+	width: 1050px;
+	margin: 0 auto;
+	padding: 0 10px 35px 10px;
+	border-top: none;
+	min-height: calc(100vh - 242px);
+	position: relative;
+}
+
+.banner {
+	position: relative;
+	font-size: 0;
+	background-color: #040309;
+	height: 200px;
+	background-image: url(../img/banner.jpeg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: initial;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.page-content {
+	width: 750px;
+	margin: 10px 0 10px 0;
+	padding: 5px;
+	height: auto;
+	min-height: 300px;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: auto;
+	min-height: 200px;
+	margin: 10px 0;
+	padding: 5px;
+	border: 2px solid #c5c9c8;
+}
+
+footer {
+	padding: 5px;
+	border-top: 2px solid #c5c9c8;
+	text-align: right;
+	
+	margin: 0 auto;
+}
+
+footer p {
+	width: 1050px;
+	margin: 0;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+.navigation {
+	width: 100%;
+	width: 1050px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+
+.nav {
+	list-style: none;
+}
+
+ul.nav  {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.nav li {
+  font-size: 17px;
+  text-align: center;
+  line-height: 2.5;
+  width: 11%;
+}
+
+.nav a:link, .nav a:active, .nav a:visited {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+.nav a:hover {
+	color: #1b73fd;
+}
+
+.login-form {
+	text-align: center;
+}
+
+.login-form div {
+	border-top: 1px solid #c5c9c8;
+	margin: 5px;
+	padding: 5px;
+}
+
+.login-form a:link, .login-form a:active, .login-form a:visited {
+	text-decoration: none;
+	color: #88918f;
+}
+
+
+.login-form a:hover {
+	color: #1b73fd;
+}
+
+.form-input {
+	margin: 5px 0;
+	height: 25px;
+	border: 1px solid #88918f;
+}
+
+.form-input:focus {
+	border: 1px solid #1b73fd;
+}
+
+.form-button{
+	margin-top: 5px;
+	  width: 100px;
+    height: 25px;
+}
+
+.srch-form {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: flex-start;
+
+	border: 2px solid #c5c9c8;
+	padding: 5px;
+}
+.srch-form select,
+.srch-form input {
+	height: 30px;
+	border: 1px solid #c5c9c8;
+}
+
+.srch-form-input-1 {
+	max-width: 120px;
+}
+
+.srch-form-input-2 {
+	max-width: 80px;
+}
+
+.srch-form-input-1:focus,
+.srch-form-input-2:focus {
+	border: 1px solid #1b73fd;
+}
+
+.srch-form-btn {
+	width: 100px;
+}
+
+input[type="button"] {
+  background: #4b9cd1;
+  background-image: linear-gradient(to bottom, #4b9cd1, #1b73fd);
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  height: 30px;
+  line-height: 12px;
+  text-decoration: none;
+  border: none;
+}
+
+input[type="button"]:hover {
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.add-form label {
+	display: flex;
+    justify-content: space-between;
+	width: 30%;
+	margin-top: 10px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.add-form-input {
+	margin-left: 10px;
+	width: 150px;
+	height: 30px;
+	border: 1px solid #c5c9c8;
+}
+
+.add-form-input:focus {
+	border: 1px solid #1b73fd;
+}
+
+.add-form-btn{
+    margin-left: 70px;
+    margin-top: 15px;
+
+	width: 100px;
+}
+
+#send-form label {
+	width: 37%;
+}
+
+.result-table {
+	width: 100%;
+	max-width: 700px;
+	margin: 15px auto;
+	border: 1px solid #c5c9c8;
+	border-collapse: collapse;
+}
+		
+.result-table th,
+.result-table td {
+	width: 33%;
+	border: 1px solid #c5c9c8;
+	text-align: center;
+	height: 25px;
+	font-size: 16px;
+}
+
+.result-table th {
+	background-color: #80aeff;
+}
+
+.result-table tr:hover {
+	background-color: #e6efff;
+	font-weight: bold;
+}
+
+#comments-wrapper div {
+	border: 1px solid #c5c9c8;
+	margin: 10px 10px;
+	padding: 10px 10px;
+	width: 40%;
+	float: left;
+}
+
+#comments-wrapper div:hover {
+	background-color: #e6efff;
+	font-weight: bolder;
+}
+
+#comments-wrapper p {
+	font-size: 10pt;
+	line-height: normal;
+}
